@@ -1,0 +1,43 @@
+# ==========================
+# Core Frameworks
+# ==========================
+torch>=2.2.0
+transformers>=4.42.0
+datasets>=2.19.0
+peft>=0.11.1
+accelerate>=0.30.0
+
+# ==========================
+# UI & Interaction
+# ==========================
+gradio>=4.35.0
+
+# ==========================
+# Optimization / Quantization (optional)
+# ==========================
+bitsandbytes>=0.43.0; platform_system != "Windows"
+
+# ==========================
+# Utilities
+# ==========================
+numpy>=1.26.0
+pandas>=2.2.0
+tqdm>=4.66.0
+scipy>=1.12.0
+regex
+sentencepiece
+protobuf
+safetensors
+
+# ==========================
+# Development / Testing
+# ==========================
+pytest
+jupyter
+ipykernel
+
+# ==========================
+# System Compatibility
+# ==========================
+psutil
+platformdirs

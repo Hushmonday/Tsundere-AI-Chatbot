@@ -1,0 +1,91 @@
+# ==========================
+# 🧠 Python & General
+# ==========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.log
+*.tmp
+*.bak
+*.swp
+*.DS_Store
+
+# ==========================
+# 🧱 Virtual Environments
+# ==========================
+.env
+.venv
+venv/
+env/
+ENV/
+env.bak/
+.ipynb_checkpoints/
+
+# ==========================
+# 🧰 IDE / Editor
+# ==========================
+.vscode/
+.idea/
+.history/
+*.code-workspace
+
+# ==========================
+# 📦 Model & Checkpoints
+# ==========================
+chat_model/
+chat_model_merged/
+chat_model_lora/
+checkpoints/
+checkpoints_lora/
+logs/
+runs/
+output/
+outputs/
+saved_models/
+tmp/
+
+# ==========================
+# 📊 Data Files
+# ==========================
+data/raw/
+data/tmp/
+data/cache/
+*.csv
+*.xlsx
+*.zip
+*.tar
+*.tar.gz
+*.jsonl
+
+# keep only training data json
+!data/train.json
+
+# ==========================
+# 🔥 Cache / HuggingFace / Torch
+# ==========================
+.cache/
+.huggingface/
+transformers_cache/
+torch_cache/
+*.pt
+*.bin
+*.safetensors
+
+# ==========================
+# 📸 Screenshots / Local Files
+# ==========================
+screenshots/
+*.png
+*.jpg
+*.jpeg
+*.gif
+
+# ==========================
+# 🧪 Test / Notebook Outputs
+# ==========================
+*.ipynb
+notebooks/
+__results__/
+reports/
